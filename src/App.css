@@ -1,0 +1,6 @@
+@media (min-width: 992px)
+{
+    .prd-grid .prd:not(.prd-hor):not(.prd-hor-simple):not(.prd--action-off).hovered .prd-inside{
+		position: relative;
+	}
+}

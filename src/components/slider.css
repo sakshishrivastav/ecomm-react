@@ -1,0 +1,48 @@
+#main-slider .carousel-indicators{
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 13px;
+    margin: auto;
+    position: absolute; 
+    left: 0; 
+    right: 0;  
+    bottom: 10px;
+    width: 70px; 
+}
+
+#main-slider .arrows{
+    top: 45%;
+    padding: 0 20px;
+    width: 100%;
+}
+
+#main-slider .arrows button{
+    background-color: rgba(255, 255, 255, 0.55);
+    color: rgb(40, 40, 40);
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+}
+#main-slider .arrows button:hover{
+    background-color: rgb(74, 126, 242);
+    color: rgb(255, 255, 255);
+}
+#main-slider .carousel-indicators li.active{
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 2px solid rgb(74, 126, 242);
+    border-radius: 6px;
+}
+#main-slider .carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    cursor: pointer;
+    background-color: #000;
+    background-clip: padding-box;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
